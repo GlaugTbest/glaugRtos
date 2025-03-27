@@ -19,24 +19,33 @@ void init_button() {
     gpio_pull_up(BUTTON_PIN);
 }
 
-void button_led_task(void *pvParameters) {
+void button_task(void *pvParameters) {
     while (1) {
-        if (!gpio_get(BUTTON_PIN)) {
-            vTaskDelay(100 / portTICK_PERIOD_MS);
+        button_pressed = !gpio_get(BUTTON_PIN);
+        vTaskDelay(100 / portTICK_PERIOD_MS);
+    }
+}
+
+void led_task(void *pvParameters) {
+    while (1) {
+        if (button_pressed) {
             gpio_put(LED_PIN, 1);
         } else {
             gpio_put(LED_PIN, 0);
         }
-
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(100 / portTICK_PERIOD_MS);
     }
 }
 
 int main() {
     stdio_init_all();
+
     init_led();
     init_button();
-    xTaskCreate(button_led_task, "Button LED Task", 256, NULL, 1, NULL);
+
+    xTaskCreate(button_task, "Button Task", 256, NULL, 1, NULL);
+    xTaskCreate(led_task, "LED Task", 256, NULL, 2, NULL);
+
     vTaskStartScheduler();
 
     while (1) {
