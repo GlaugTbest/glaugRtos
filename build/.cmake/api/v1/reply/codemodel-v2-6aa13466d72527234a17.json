@@ -1189,14 +1189,14 @@
 				},
 				{
 					"build" : "FREERTOS_KERNEL",
-					"jsonFile" : "directory-FREERTOS_KERNEL-Debug-fbb16c183bf297ccb732.json",
+					"jsonFile" : "directory-FREERTOS_KERNEL-Debug-411b6f7691c10a02c59c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 2,
-					"source" : "C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
+					"source" : "C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
 				}
 			],
 			"name" : "Debug",
@@ -1341,7 +1341,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "blink::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-blink-Debug-5b2f4138bd37a9fed194.json",
+					"jsonFile" : "target-blink-Debug-8bde8b82e07e21c02bf5.json",
 					"name" : "blink",
 					"projectIndex" : 0
 				},

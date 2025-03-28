@@ -261,7 +261,7 @@ FETCHCONTENT_QUIET:BOOL=ON
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
 //Path to the FreeRTOS_KERNEL
-FREERTOS_KERNEL_PATH:PATH=C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel
+FREERTOS_KERNEL_PATH:PATH=C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel
 
 //Value Computed by CMake
 FreeRTOS-Kernel_BINARY_DIR:STATIC=C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build/FREERTOS_KERNEL
@@ -270,7 +270,7 @@ FreeRTOS-Kernel_BINARY_DIR:STATIC=C:/Users/glaugtbest/Desktop/testenivelamentoun
 FreeRTOS-Kernel_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-FreeRTOS-Kernel_SOURCE_DIR:STATIC=C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
+FreeRTOS-Kernel_SOURCE_DIR:STATIC=C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
 
 //PICO target board (e.g. pico, pico2)
 PICO_BOARD:STRING=pico_w
@@ -336,7 +336,7 @@ PICO_STDIO_UART:BOOL=ON
 PICO_STDIO_USB:BOOL=OFF
 
 //No help, variable specified on the command line.
-Python3_EXECUTABLE:STRING=C:/Users/glaugtbest/.pico-sdk/python/3.12.6/python.exe
+Python3_EXECUTABLE:UNINITIALIZED=C:/Users/glaugtbest/.pico-sdk/python/3.12.6/python.exe
 
 //Value Computed by CMake
 blink_BINARY_DIR:STATIC=C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build
@@ -382,8 +382,6 @@ CMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_ASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_RELWITHDEBINFO
 CMAKE_ASM_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//STRINGS property for variable: CMAKE_BUILD_TYPE
-CMAKE_BUILD_TYPE-STRINGS:INTERNAL=Debug;Release;MinSizeRel;RelWithDebInfo
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build
 //Major version of cmake used to create the current loaded cache

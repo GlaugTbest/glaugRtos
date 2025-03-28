@@ -180,10 +180,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
-				},
-				{
-					"name" : "STRINGS",
-					"value" : "Debug;Release;MinSizeRel;RelWithDebInfo"
 				}
 			],
 			"type" : "STRING",
@@ -1403,7 +1399,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel"
+			"value" : "C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel"
 		},
 		{
 			"name" : "FreeRTOS-Kernel_BINARY_DIR",
@@ -1439,7 +1435,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
+			"value" : "C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
 		},
 		{
 			"name" : "PICO_32BIT",
@@ -1966,7 +1962,7 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/Users/glaugtbest/.pico-sdk/python/3.12.6/python.exe"
 		},
 		{

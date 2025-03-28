@@ -1,12 +1,12 @@
-# Generated Cmake Pico project file
+# Generated CMake Pico project file
 cmake_minimum_required(VERSION 3.13)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Initialise pico_sdk from installed location
-# (note this can come from environment, CMake cache etc)
+# Initialize pico_sdk from installed location
+# (note this can come from environment, CMake cache, etc.)
 
 # == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
 if(WIN32)
@@ -14,14 +14,17 @@ if(WIN32)
 else()
     set(USERHOME $ENV{HOME})
 endif()
+
 set(sdkVersion 2.1.0)
 set(toolchainVersion 13_3_Rel1)
 set(picotoolVersion 2.1.0)
 set(picoVscode ${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
+
 if (EXISTS ${picoVscode})
     include(${picoVscode})
 endif()
 # ====================================================================================
+
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
@@ -33,19 +36,22 @@ project(blink C CXX ASM)
 pico_sdk_init()
 
 # Set FreeRTOS Kernel Path
-set(FREERTOS_KERNEL_PATH "${USERHOME}/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel")
+set(FREERTOS_KERNEL_PATH "C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel")
+message(STATUS "Using FreeRTOS Kernel path: ${FREERTOS_KERNEL_PATH}")
+
+# Include FreeRTOS Kernel import CMake
 include(${FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 # Include directories
 include_directories(${FREERTOS_KERNEL_PATH}/include)
-include_directories(${CMAKE_SOURCE_DIR}/FreeRTOS-Kernel/examples/coverity)
+include_directories(${CMAKE_SOURCE_DIR})
 
 # Add executable. Default name is the project name, version 0.1
 add_executable(blink
     blink.c
 )
 
-# pull in common dependencies
+# Pull in common dependencies
 target_link_libraries(blink pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
 
 if (PICO_CYW43_SUPPORTED)
@@ -53,10 +59,9 @@ if (PICO_CYW43_SUPPORTED)
 endif()
 
 # Ensure FreeRTOSConfig.h is included
-target_include_directories(blink PRIVATE ${CMAKE_SOURCE_DIR}/FreeRTOS-Kernel/examples/coverity)
+target_include_directories(blink PRIVATE ${CMAKE_SOURCE_DIR}/glaugRtos)
 
-
-# create map/bin/hex file etc.
+# Create map/bin/hex file etc.
 pico_add_extra_outputs(blink)
 
-# add url via pico_set_program_url
+# Add URL via pico_set_program_url

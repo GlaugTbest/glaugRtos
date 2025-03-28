@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
+# Install script for directory: C:/Users/glaugtbest/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
