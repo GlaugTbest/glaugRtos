@@ -180,6 +180,10 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "Debug;Release;MinSizeRel;RelWithDebInfo"
 				}
 			],
 			"type" : "STRING",
@@ -195,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build"
+			"value" : "c:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -695,7 +699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -755,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1339,7 +1343,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build/_deps"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1411,7 +1415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build/FREERTOS_KERNEL"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build/FREERTOS_KERNEL"
 		},
 		{
 			"name" : "FreeRTOS-Kernel_IS_TOP_LEVEL",
@@ -1663,7 +1667,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/boot_picobin_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/boot_picoboot_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/boot_uf2_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_base_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_usb_reset_interface_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_bit_ops_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_binary_info;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_divider_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_sync;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_time;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_util;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_stdlib_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/hardware_claim;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/hardware_regs;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/hardware_structs;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/boot_stage2;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_base;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_adc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_dma;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_exception;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_i2c;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_interp;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pwm;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_resets;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_rtc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_spi;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xip_cache;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/boot_bootrom_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_compiler;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_sections;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_aon_timer;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootsel_via_double_reset;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_multicore;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_rand;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_semihosting;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_rtt;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/cmsis;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/tinyusb;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_i2c_slave;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_async_context;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_btstack;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_driver;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_lwip/tools;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_lwip;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/lib/cyw43-driver/src;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_arch;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mbedtls;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_time_adapter;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_link;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_fix;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib;C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build/pico-sdk/src/extra_doxygen"
+			"value" : "C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/boot_picobin_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/boot_picoboot_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/boot_uf2_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_base_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_usb_reset_interface_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_bit_ops_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_binary_info;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_divider_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_sync;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_time;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_util;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/pico_stdlib_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/common/hardware_claim;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/hardware_regs;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/hardware_structs;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2040/boot_stage2;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_base;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_adc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_dma;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_exception;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_i2c;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_interp;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pwm;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_resets;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_rtc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_spi;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xip_cache;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/boot_bootrom_headers;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_compiler;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_sections;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_aon_timer;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootsel_via_double_reset;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_multicore;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_rand;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_semihosting;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_rtt;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/cmsis;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/tinyusb;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_i2c_slave;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_async_context;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_btstack;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_driver;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_lwip/tools;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_lwip;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/lib/cyw43-driver/src;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_arch;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mbedtls;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_time_adapter;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_link;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_fix;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio;C:/Users/glaugtbest/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib;C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build/pico-sdk/src/extra_doxygen"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PRE_DEFINES",
@@ -1962,7 +1966,7 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "C:/Users/glaugtbest/.pico-sdk/python/3.12.6/python.exe"
 		},
 		{
@@ -2047,7 +2051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build"
 		},
 		{
 			"name" : "blink_IS_TOP_LEVEL",
@@ -2071,7 +2075,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos"
 		},
 		{
 			"name" : "pico_sdk_BINARY_DIR",
@@ -2083,7 +2087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build/pico-sdk"
+			"value" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",

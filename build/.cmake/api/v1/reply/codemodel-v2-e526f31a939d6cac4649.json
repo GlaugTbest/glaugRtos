@@ -1341,14 +1341,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "blink::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-blink-Debug-8bde8b82e07e21c02bf5.json",
+					"jsonFile" : "target-blink-Debug-22f75fd74c21d637ff2a.json",
 					"name" : "blink",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default-Debug-dbd5895c5510d692b0d5.json",
+					"jsonFile" : "target-bs2_default-Debug-3b4595ea43105b006ee5.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -1379,8 +1379,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos/build",
-		"source" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/glaugRtos"
+		"build" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos/build",
+		"source" : "C:/Users/glaugtbest/Desktop/testenivelamentouni1/testeoficial/glaugRtos"
 	},
 	"version" : 
 	{

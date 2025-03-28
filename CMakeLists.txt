@@ -64,4 +64,6 @@ target_include_directories(blink PRIVATE ${CMAKE_SOURCE_DIR}/glaugRtos)
 # Create map/bin/hex file etc.
 pico_add_extra_outputs(blink)
 
+pico_enable_stdio_usb(blink 1)
+pico_enable_stdio_uart(blink 0)
 # Add URL via pico_set_program_url
